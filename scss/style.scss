@@ -1,0 +1,96 @@
+@import "config";
+
+
+
+.title{
+    h2{
+        text-align: center;
+        font-size: 3rem;
+        margin-top: 2vh;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+         .span2 {
+             color: rgb(22, 22, 22);
+         }
+        .span1{
+            color: rgb(139, 139, 139);
+        }
+
+       
+    }
+}
+.review{
+    min-height: 80vh;
+    width: 60vw;
+    background-color: rgb(255, 255, 255);
+    color: #000;
+    margin: auto;
+    padding: 1rem;
+    padding-bottom: 2rem;
+    margin-top: 3vh;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0,0,0 ,0.4);
+    text-align: center;
+    .img-container{
+        width: 300px;
+        margin:auto;
+        img{
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            display: inline-block;
+        
+            
+        }
+    }
+    h4{
+        margin-bottom: 1.5rem;
+        margin-top: 0.3rem;
+        font-size: 1.2rem;
+        
+    }
+
+    h4 + p{
+        margin-bottom: 1rem;
+        font-weight: 550;
+        color: rgb(136, 135, 135);
+        
+    }
+    p{
+        margin-bottom: 1rem;
+        line-height: 1.5;
+    }
+    .button-container{
+        margin-bottom: 1rem;
+        .prev-btn{
+            margin-right: 1.2rem;
+            background:transparent;
+            font-size: 1.5rem;
+            color: rgb(168, 5, 5);
+            font-weight: 600;
+            border: none;
+            cursor: pointer;
+        }
+        .next-btn{
+            margin-right: 1.2rem;
+            background:transparent;
+            font-size: 1.5rem;
+            color: rgb(4, 156, 42);
+            font-weight: 600;
+            border: none;
+            cursor: pointer;
+        }
+        
+    }
+    .random-btn{
+        padding: 0.5rem 0.7rem;
+        border: none;
+        outline: 1px solid gray;
+        border-radius: 3px;
+        background-color: #fff;
+        &:hover{
+            background-color: rgb(173, 173, 6);
+            color: #fff;
+            cursor: pointer;
+        }
+    }
+}
